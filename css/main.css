@@ -4,24 +4,115 @@
   box-sizing: border-box;
 }
 
+body .box .btn {
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  color: #202D57;
+  background-color: #fff;
+  width: 115px;
+  height: 35px;
+  cursor: pointer;
+  margin: 20px 0 5px 0;
+}
+
+body .box .circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 35px;
+  margin: auto;
+}
+
 body {
-  background-color: rgb(39, 103, 240);
+  background-color: #202D57;
 }
-body h1 {
-  color: white;
-}
-body h2 {
-  color: white;
-}
-body p {
-  color: white;
+body .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 60px;
+  row-gap: 20px;
 }
 body .box {
+  column-gap: 20px;
+  margin-top: 30px;
   display: flex;
-  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+body .box .card1 {
+  display: flex;
+  column-gap: 10px;
+}
+body .box .card2 {
+  display: flex;
+  column-gap: 10px;
 }
 body .box .card {
-  width: 300px;
-  height: 200px;
-  background-color: blue;
+  width: 230px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+body .box .card:hover {
+  background-color: #2245A9;
+  box-shadow: 1px 1px 8px 0 #2245A9;
+}
+body .box h1 {
+  margin-top: 30px;
+}
+body .box p {
+  padding-top: 60px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 992px) {
+  body .box {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .box .card1 {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  body .box .card2 {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+body .box .btn {
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  color: #202D57;
+  background-color: #fff;
+  width: 115px;
+  height: 35px;
+  cursor: pointer;
+  margin: 20px 0 5px 0;
+}
+
+body .box .circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 35px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+@import './variables';
+
+%button {
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    color: $primary-color;
+    background-color: $color-white;
+    width: 115px;
+    height: 35px;
+    cursor: pointer;
+    margin: 20px 0 5px 0;
+}
+%circle {
+    width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 2px solid $color-white;
+      @include flex();
+      color: $color-white;
+      font-size: 35px;
+      margin: auto;
+}
