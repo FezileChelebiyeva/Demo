@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(39, 103, 240);
+}
+body h1 {
+  color: white;
+}
+body h2 {
+  color: white;
+}
+body p {
+  color: white;
+}
+body .box {
+  display: flex;
+  column-gap: 25px;
+}
+body .box .card {
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+}/*# sourceMappingURL=main.css.map */
